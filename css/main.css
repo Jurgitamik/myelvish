@@ -14,11 +14,26 @@ body * {
     background-color: aqua;
 }
     .block {
-        /* display: inline-block; */
-        width: 800px;
+        width: 1300px;
         margin-top: 20px;
-        margin-left: calc((100% - 800px) / 2);
+        margin-left: calc((100% - 1300px) / 2);
         background-color: rgb(194, 171, 231) ;
         text-align: center;
+
+    }
+    h2 {
         
+        background-color: tomato;
+    }
+    h4 {
+        width: 550px;
+        margin-left: calc((100% - 550px) / 2);
+        font-size: 15px;
+        text-align: center;
+    }
+    img {
+        height: 100px;
+        width: 110px;
+        padding: 10px;
+        margin: 80px 20px;
     }
