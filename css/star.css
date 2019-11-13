@@ -1,34 +1,45 @@
 h2 {
     display: inline-block;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: -7px;
+    margin-top: 40px;
     font-size: 40px;
     line-height: 60px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     position: relative;
 }
-    h2::before {
+    
+h2::before {
         content: '';
         display: inline-block;
-        width: 8px;
-        height: 8px;
-        border-radius: 50%;
-        background-color: var(--color-secondary);
+        width: 35px;
+        height: 1.5px;
+        background-color:#d0d0d0;
         position: absolute;
-        bottom: -23px;
-        left: 0;
-    }
+        bottom: -12px;
+        left: 46%;
+    } 
+    
+
     h2::after {
         content: '';
         display: inline-block;
-        width: 80px;
-        height: 2px;
-        background-color: var(--color-secondary);
+        width: 35px;
+        height: 1.5px;
+        background-color:#d0d0d0;
         position: absolute;
-        bottom: -20px;
-        left: 0;
+        bottom: -12px;
+        left: 51%;
+
     }
-    h2.no-style::before,
+    
+    p {
+        font-size: 40px;
+    }
+
+        /* left: 0; */
+
+    /* h2.no-style::before,
     h2.no-style::after {
         display: none;
     }
@@ -44,4 +55,4 @@ h2 {
         .bg-secondary h2::before,
         .bg-secondary h2::after {
             background-color: var(--color-secondary-anti);
-        }
+        } */

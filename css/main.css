@@ -11,23 +11,25 @@ body * {
     display: inline-block;
     float: left;
     width: 1300px;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
     .block {
         width: 1300px;
         margin-top: 20px;
         margin-left: calc((100% - 1300px) / 2);
-        background-color: rgb(194, 171, 231) ;
+        /* background-color: rgb(194, 171, 231) ; */
         text-align: center;
 
     }
     h2 {
-        
-        background-color: tomato;
+        /* display: inline-block;
+        width: 100%; */
+        /* background-color: tomato; */
     }
     h4 {
         width: 550px;
         margin-left: calc((100% - 550px) / 2);
+        color: rgb(158, 157, 157);
         font-size: 15px;
         text-align: center;
     }
